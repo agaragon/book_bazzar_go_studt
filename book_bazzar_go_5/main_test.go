@@ -5,9 +5,8 @@ import (
 	"encoding/json"
 	"net/http"
 	"net/http/httptest"
-	"testing"
-
 	"github.com/gin-gonic/gin"
+	"testing"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -13,7 +13,7 @@ var DB *gorm.DB
 type Book struct {
 	Id uint `json:"id" gorm:"primary_key"` 
 	Title string `json:"title"`
-	Author string `json:"author`
+	Author string `json:"author"`
 }
 
 func (book *Book) Create() error {
